@@ -1,66 +1,75 @@
-/* 1. Estilo para el body */
+/* Estilos generales */
 body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    font-size: 16px;
-    background-color: #FFFFFF; /* fondo blanco */
-    color: #1C1C1C; /* texto gris oscuro */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #264653; 
+  color: #f1faee; 
+  margin: 0;
+  padding: 0;
 }
 
-/* 2. Estilo para header */
+/* Encabezado */
 header {
-    background-color: #003366; /* azul marino */
-    color: #FFFFFF; /* texto blanco */
-    padding: 20px;
-    border-bottom: 3px solid #FFAA00; /* acento cálido */
+  background-color: #2a9d8f; 
+  padding: 20px;
+  text-align: center;
 }
 
-/* 3. Estilo para nav */
+/* Navegación */
 nav {
-    background-color: #FFAA00; /* amarillo cálido */
-    color: #003366; /* texto azul marino para contraste */
-    padding: 12px;
-    text-align: center;
+  background-color: #e76f51; 
+  padding: 10px;
 }
 
-/* 4. Estilo para main */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f1faee;
+  text-decoration: underline;
+}
+
+/* Contenido principal */
 main {
-    background-color: #F0F4F8; /* gris azulado claro */
-    font-size: 17px;
-    color: #1C1C1C; /* texto oscuro */
-    padding: 25px;
-    border-radius: 8px;
+  background-color: #f4a261; 
+  font-size: 18px;
+  padding: 20px;
 }
 
-/* 5. Estilo para footer */
 footer {
-    background-color: #003366; /* azul marino oscuro */
-    color: #FFFFFF; /* texto blanco puro */
-    padding: 15px;
-    text-align: center;
+  background-color: #e9c46a;
+  color: #1d3557; 
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
 }
 
-/* 6. Estilo para li */
-li {
-    display: inline-block;
-    width: 120px;
-    margin-right: 10px;
-    list-style: none;
-    color: #003366; /* texto azul marino */
-    background-color: #FFDD99; /* fondo claro para contraste */
-}
-
-/* 7. Estilo para h1 */
+/* Titulares */
 h1 {
-    text-align: center;
-    font-family: "Georgia", serif;
-    color: #FF6600; /* naranja fuerte */
-    text-transform: uppercase;
-    margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #1d3557;
 }
 
-/* 8. Estilo para p */
+/* Párrafos */
 p {
-    line-height: 1.6;
-    margin-bottom: 15px;
-    font-size: 15px; /* gris oscuro para lectura cómoda */
+  line-height: 1.6;
+  color: #2d2d2d; 
 }
