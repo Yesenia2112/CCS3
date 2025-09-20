@@ -1,0 +1,58 @@
+/* 1. Estilo para el body */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    background-color: #F9F9F9;
+}
+
+/* 2. Estilo para header */
+header {
+    background-color: #2C3E50;
+    padding: 20px;
+    border-bottom: 4px solid #1ABC9C;
+}
+
+/* 3. Estilo para nav */
+nav {
+    background-color: #34495E;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 4. Estilo para main */
+main {
+    background-color: #ECF0F1;
+    font-size: 17px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* 5. Estilo para footer */
+footer {
+    background-color: #95A5A6;
+    padding: 15px;
+    text-align: center;
+}
+
+/* 6. Estilo para li */
+li {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+/* 7. Estilo para h1 */
+h1 {
+    text-align: center;
+    font-family: "Georgia", serif;
+    color: #1ABC9C;
+    text-transform: uppercase;
+}
+
+/* 8. Estilo para p */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
