@@ -3,36 +3,38 @@ body {
     font-family: "Segoe UI", Arial, sans-serif;
     font-size: 16px;
     background-color: #FFFFFF; /* fondo blanco */
-    color: #222222; /* texto oscuro para buen contraste */
+    color: #1C1C1C; /* texto gris oscuro */
 }
 
 /* 2. Estilo para header */
 header {
-    background-color: #1F2D3D; /* azul oscuro */
-    color: #FFFFFF; /* texto blanco para contraste */
+    background-color: #003366; /* azul marino */
+    color: #FFFFFF; /* texto blanco */
     padding: 20px;
+    border-bottom: 3px solid #FFAA00; /* acento cálido */
 }
 
 /* 3. Estilo para nav */
 nav {
-    background-color: #2C3E50; /* gris azulado oscuro */
-    color: #F0F0F0; /* texto claro */
-    padding: 10px;
+    background-color: #FFAA00; /* amarillo cálido */
+    color: #003366; /* texto azul marino para contraste */
+    padding: 12px;
     text-align: center;
 }
 
 /* 4. Estilo para main */
 main {
-    background-color: #F4F6F8; /* gris claro */
+    background-color: #F0F4F8; /* gris azulado claro */
     font-size: 17px;
-    color: #333333; /* texto oscuro */
+    color: #1C1C1C; /* texto oscuro */
     padding: 25px;
+    border-radius: 8px;
 }
 
 /* 5. Estilo para footer */
 footer {
-    background-color: #3B3B3B; /* gris oscuro */
-    color: #EAEAEA; /* texto claro */
+    background-color: #003366; /* azul marino oscuro */
+    color: #FFFFFF; /* texto blanco puro */
     padding: 15px;
     text-align: center;
 }
@@ -43,21 +45,22 @@ li {
     width: 120px;
     margin-right: 10px;
     list-style: none;
-    color: #2C3E50; /* texto oscuro */
+    color: #003366; /* texto azul marino */
+    background-color: #FFDD99; /* fondo claro para contraste */
 }
 
 /* 7. Estilo para h1 */
 h1 {
     text-align: center;
     font-family: "Georgia", serif;
-    color: #007ACC; /* azul accesible */
+    color: #FF6600; /* naranja fuerte */
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 /* 8. Estilo para p */
 p {
     line-height: 1.6;
     margin-bottom: 15px;
-    font-size: 15px;
-    color: #444444; /* gris oscuro para lectura cómoda */
+    font-size: 15px; /* gris oscuro para lectura cómoda */
 }
