@@ -2,25 +2,39 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+<<<<<<< HEAD
   background-color: #264653; /* azul profundo */
   color: #f1faee; /* tono claro para contraste */
+=======
+  background-color: #264653; 
+  color: #f1faee; 
+>>>>>>> 4042683756ebe4865a22e1db67ba7d61453c00bd
   margin: 0;
   padding: 0;
 }
 
 /* Encabezado */
 header {
+<<<<<<< HEAD
   background-color: #2a9d8f; /* verde azulado */
+=======
+  background-color: #2a9d8f; 
+>>>>>>> 4042683756ebe4865a22e1db67ba7d61453c00bd
   padding: 20px;
   text-align: center;
 }
 
 /* Navegación */
 nav {
+<<<<<<< HEAD
   background-color: #e76f51; /* naranja complementario */
   padding: 10px;
   display: inline-block; /* nuevo */
   width: 80%; /* nuevo */
+=======
+  background-color: #e76f51; 
+  padding: 10px;
+>>>>>>> 4042683756ebe4865a22e1db67ba7d61453c00bd
 }
 
 nav ul {
@@ -31,14 +45,20 @@ nav ul {
   justify-content: center;
 }
 
+<<<<<<< HEAD
 /* Comentamos lo que pediste del <li> */
 /*
+=======
+>>>>>>> 4042683756ebe4865a22e1db67ba7d61453c00bd
 nav ul li {
   display: inline-block;
   width: 150px;
   text-align: center;
 }
+<<<<<<< HEAD
 */
+=======
+>>>>>>> 4042683756ebe4865a22e1db67ba7d61453c00bd
 
 nav ul li a {
   color: #ffffff;
@@ -51,6 +71,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 /* Imagen dentro de nav */
 nav img {
   width: 10%; /* solo imagen dentro del nav */
@@ -59,14 +80,25 @@ nav img {
 /* Contenido principal */
 main {
   background-color: #f4a261; /* naranja suave */
+=======
+/* Contenido principal */
+main {
+  background-color: #f4a261; 
+>>>>>>> 4042683756ebe4865a22e1db67ba7d61453c00bd
   font-size: 18px;
   padding: 20px;
 }
 
+<<<<<<< HEAD
 /* Footer */
 footer {
   background-color: #e9c46a; /* amarillo suave */
   color: #1d3557; /* azul oscuro */
+=======
+footer {
+  background-color: #e9c46a;
+  color: #1d3557; 
+>>>>>>> 4042683756ebe4865a22e1db67ba7d61453c00bd
   padding: 15px;
   text-align: center;
   font-size: 14px;
@@ -76,12 +108,17 @@ footer {
 h1 {
   text-align: center;
   font-family: 'Georgia', serif;
+<<<<<<< HEAD
   color: #1d3557; /* azul oscuro */
+=======
+  color: #1d3557;
+>>>>>>> 4042683756ebe4865a22e1db67ba7d61453c00bd
 }
 
 /* Párrafos */
 p {
   line-height: 1.6;
+<<<<<<< HEAD
   color: #2d2d2d; /* gris oscuro para mejor lectura en fondo naranja */
 }
 
@@ -108,4 +145,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-around; /* reparte espacio uniformemente */
   gap: 15px; /* espacio entre items */
+=======
+  color: #2d2d2d; 
+>>>>>>> 4042683756ebe4865a22e1db67ba7d61453c00bd
 }
