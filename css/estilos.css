@@ -1,66 +1,111 @@
-/* 1. Estilo para el body */
+/* Estilos generales */
 body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    font-size: 16px;
-    background-color: #FFFFFF; /* fondo blanco */
-    color: #1C1C1C; /* texto gris oscuro */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #264653; /* azul profundo */
+  color: #f1faee; /* tono claro para contraste */
+  margin: 0;
+  padding: 0;
 }
 
-/* 2. Estilo para header */
+/* Encabezado */
 header {
-    background-color: #003366; /* azul marino */
-    color: #FFFFFF; /* texto blanco */
-    padding: 20px;
-    border-bottom: 3px solid #FFAA00; /* acento cálido */
+  background-color: #2a9d8f; /* verde azulado */
+  padding: 20px;
+  text-align: center;
 }
 
-/* 3. Estilo para nav */
+/* Navegación */
 nav {
-    background-color: #FFAA00; /* amarillo cálido */
-    color: #003366; /* texto azul marino para contraste */
-    padding: 12px;
-    text-align: center;
+  background-color: #e76f51; /* naranja complementario */
+  padding: 10px;
+  display: inline-block; /* nuevo */
+  width: 80%; /* nuevo */
 }
 
-/* 4. Estilo para main */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Comentamos lo que pediste del <li> */
+/*
+nav ul li {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+*/
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f1faee;
+  text-decoration: underline;
+}
+
+/* Imagen dentro de nav */
+nav img {
+  width: 10%; /* solo imagen dentro del nav */
+}
+
+/* Contenido principal */
 main {
-    background-color: #F0F4F8; /* gris azulado claro */
-    font-size: 17px;
-    color: #1C1C1C; /* texto oscuro */
-    padding: 25px;
-    border-radius: 8px;
+  background-color: #f4a261; /* naranja suave */
+  font-size: 18px;
+  padding: 20px;
 }
 
-/* 5. Estilo para footer */
+/* Footer */
 footer {
-    background-color: #003366; /* azul marino oscuro */
-    color: #FFFFFF; /* texto blanco puro */
-    padding: 15px;
-    text-align: center;
+  background-color: #e9c46a; /* amarillo suave */
+  color: #1d3557; /* azul oscuro */
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
 }
 
-/* 6. Estilo para li */
-li {
-    display: inline-block;
-    width: 120px;
-    margin-right: 10px;
-    list-style: none;
-    color: #003366; /* texto azul marino */
-    background-color: #FFDD99; /* fondo claro para contraste */
-}
-
-/* 7. Estilo para h1 */
+/* Titulares */
 h1 {
-    text-align: center;
-    font-family: "Georgia", serif;
-    color: #FF6600; /* naranja fuerte */
-    text-transform: uppercase;
-    margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #1d3557; /* azul oscuro */
 }
 
-/* 8. Estilo para p */
+/* Párrafos */
 p {
-    line-height: 1.6;
-    margin-bottom: 15px;
-    font-size: 15px; /* gris oscuro para lectura cómoda */
+  line-height: 1.6;
+  color: #2d2d2d; /* gris oscuro para mejor lectura en fondo naranja */
+}
+
+/* ---- NUEVAS CLASES ---- */
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center; /* centra las columnas */
+  align-items: start; /* alinea contenido al inicio */
+  row-gap: 20px; /* espacio entre filas */
+  column-gap: 5%; /* opcional: espacio entre columnas */
+}
+
+/* Solo imágenes dentro de grid */
+.grid img {
+  width: 100%;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* reparte espacio uniformemente */
+  gap: 15px; /* espacio entre items */
 }
